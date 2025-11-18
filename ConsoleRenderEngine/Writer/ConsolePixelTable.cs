@@ -25,7 +25,6 @@ public class ConsolePixelTable
         }
 
         return null;
-
     }
 
     public List<int> SelectPixels(int combined1, int combined2)

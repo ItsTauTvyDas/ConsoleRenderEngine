@@ -200,7 +200,7 @@ internal class SnakeGame : ConsoleRenderer
             return false;
         
         Tail.Add(combined);
-        new Thread(Console.Beep).Start(); //Beep is blocking method
+        new Thread(Console.Beep).Start(); //Beep is a blocking method
         GenerateApple();
         return true;
     }
