@@ -1,10 +1,9 @@
-# Console Renderer Engine
+# Terminal Pixel Engine
 Old project from 3 years ago or so and decided to public it. Before putting this on GitHub, I did some code clean up so now minimum version is .NET 8 (it was 6 before).
 
 There's some unused/commented out code, but I didn't remove it because I do not remember what I was trying to do.
 
 # Functionality
-From what I recall:
 * You can layer pixels, meaning if you move some pixel from layer 1, layer 0 then show up.
 * You can swap pixel location with another pixel.
 * Text renderer.
